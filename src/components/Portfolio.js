@@ -39,6 +39,7 @@ const Project = styled.a`
     position: relative;
 
     :hover {
+        
         >div {
             display: block;
         }
@@ -66,8 +67,24 @@ const ProjectTitle = styled.div`
     position: absolute;
     display: none;
     z-index: 1;
-    background-color: rgba(52, 73, 94, 0.75);
+    background-color: rgba(52, 200, 94, 0.75);
+
 `;
+
+const ProjectTitleDev = styled.div`
+    height: 100%;
+    color: white;
+    width: 100%;
+    padding-top: 2em;
+    text-align: center;
+    font-size: 36px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background-color: rgba(200, 52, 94, 0.75);
+
+`;
+
 
 const Portfolio = () => {
     return (
@@ -84,8 +101,10 @@ const Portfolio = () => {
                    <ProjectTitle>Currency Exchange</ProjectTitle>
                    <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
                 </Project>
-                <Project>proj3</Project>
-                <Project>proj4</Project>
+                <Project href ="https://jespergustafsson.github.io/react-dota-api-test/">
+                   <ProjectTitleDev>Chess</ProjectTitleDev>
+                   <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
+                </Project>                <Project>proj4</Project>
                 <Project>proj5</Project>
                 <Project>proj6</Project>
             </SectionContent>
