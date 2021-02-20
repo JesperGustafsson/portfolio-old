@@ -14,10 +14,17 @@ const SectionTitle = styled.div`
     border-bottom: solid;
     border-width: 2px;
     padding-bottom: 0.5em;
-    width: 20%;
+    width: 40%;
     font-weight: 900;
     font-size: 36px;
     text-align: center;
+
+    @media (max-width: 1090px) {
+     font-size: 28px;   
+    }
+    @media (max-width: 760px) {
+     font-size: 22px;   
+    }
 `;
 
 
@@ -37,6 +44,14 @@ const Project = styled.a`
     margin: 0.5em;
     overflow: hidden;
     position: relative;
+
+    @media (max-width: 1090px) {
+        height: 20em;
+        width: 20em;
+    }
+    @media (max-width: 760px) {
+        height: 20em;
+        width: 20em;    }
 
     :hover {
         

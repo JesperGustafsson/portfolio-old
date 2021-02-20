@@ -1,21 +1,34 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
+/* @media (max-width: 1090px) {
+    width: 700px;
+  }
+
+  @media (max-width: 760px) {
+    width: 360px;
+  }
+   */
 const Container = styled.div`
     margin-top: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 `;
 
 const SectionTitle = styled.div`
     border-bottom: solid;
     border-width: 2px;
     padding-bottom: 0.5em;
-    width: 20%;
+    width: 40%;
     font-weight: 900;
     font-size: 36px;
     text-align: center;
+
+
 `;
 
 
@@ -25,6 +38,12 @@ const SectionContent = styled.div`
     width: 100%;
     font-size: 20px;
     line-height: 1.75em;
+    @media (max-width: 1090px) {
+     font-size: 16px;   
+    }
+    @media (max-width: 760px) {
+     font-size: 12px;   
+    }
 `;
 
 const About = () => {

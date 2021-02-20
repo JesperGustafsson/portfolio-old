@@ -5,11 +5,23 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaCodepen } from 'react-icons/fa'
 
 const Container = styled.div`
     display: flex;
+    @media (max-width: 760px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     `;
 
 const Photo = styled.img`
     border-style: solid;
     height: 15em;
+    @media (max-width: 1090px) {
+        height: 12em;
+    }
+    @media (max-width: 760px) {
+        height: 75%;
+        width: 75%;
+    }
 `;
 
 const Intro = styled.div`
@@ -18,27 +30,54 @@ const Intro = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    `;
+
+
+`;
 
 const Intro2 = styled.div`
     font-size: 50px;
+
+    @media (max-width: 1090px) {
+        font-size: 40px;
+    }
+    @media (max-width: 760px) {
+        font-size: 30px;
+    }
 `;
 const Media = styled.div`
     
     display: flex;
     justify-content: space-between;
     font-size: 30px;
+    @media (max-width: 1090px) {
+    font-size: 22px;
+    }
+    @media (max-width: 760px) {
+        font-size: 16px;
+    }
 `;
 
 
 const Links = styled.div`
-    
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
     `;
 
 const Link = styled.a`
-    background-color: #FFFFFF;
-    margin-right: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 0.25em;
+    
+        :hover {
+            text-shadow: 1px 1px, -1px 1px
+        
+        }
+
+
+
     `;
 
 const JobTitle = styled.div`

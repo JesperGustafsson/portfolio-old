@@ -8,13 +8,19 @@ import Portfolio from './components/Portfolio'
 import CV from './components/CV'
 import Todo from './components/Todo'
 
+
 const Body = styled.body`
   text-align: justify;
-  color: ;
+  color: #000000;
+  background-color: #e8efeb;
 
   a {
     color: black;
     text-decoration: none;
+
+    :hover {
+      color: green;
+    }
   }
 `;
 
@@ -24,14 +30,14 @@ const Container = styled.div`
   padding: 1.5em;
   padding-top: 2em;
 
-  @media (max-width: 375px) {
-    width: 360px;
-  }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1090px) {
     width: 700px;
   }
 
+  @media (max-width: 760px) {
+    width: 360px;
+  }
 `;
 
 function App() {
