@@ -28,6 +28,13 @@ const SectionTitle = styled.div`
     font-size: 36px;
     text-align: center;
 
+    @media (max-width: 1090px) {
+     font-size: 30px;   
+    }
+    @media (max-width: 760px) {
+     font-size: 24px;   
+    }
+
 
 `;
 

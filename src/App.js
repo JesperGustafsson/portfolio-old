@@ -36,7 +36,7 @@ const Container = styled.div`
   }
 
   @media (max-width: 760px) {
-    width: 360px;
+    width: 310px;
   }
 `;
 

@@ -41,7 +41,8 @@ const Intro2 = styled.div`
         font-size: 40px;
     }
     @media (max-width: 760px) {
-        font-size: 30px;
+        margin-top: 1em;
+        font-size: 26px;
     }
 `;
 const Media = styled.div`
@@ -50,10 +51,11 @@ const Media = styled.div`
     justify-content: space-between;
     font-size: 30px;
     @media (max-width: 1090px) {
-    font-size: 22px;
+        font-size: 22px;
     }
     @media (max-width: 760px) {
-        font-size: 16px;
+        margin-top: 1em;
+        font-size: 14px;
     }
 `;
 
@@ -73,9 +75,8 @@ const Link = styled.a`
     
         :hover {
             text-shadow: 1px 1px, -1px 1px
-        
+            
         }
-
 
 
     `;
