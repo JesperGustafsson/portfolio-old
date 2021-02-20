@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import portfolioPhoto from './portfolioPhoto.jpg'
+import { FaGithub, FaLinkedin, FaEnvelope, FaCodepen } from 'react-icons/fa'
 
 const Container = styled.div`
     display: flex;
@@ -58,9 +59,10 @@ const Header = () => {
                 </Intro2>
                 <Media>
                     <Links>
-                        <Link href="#">LinkedIn</Link>
-                        <Link href="#">GitHub</Link>
-                        <Link href="#">CodePen</Link>
+                        <Link href="https://www.linkedin.com/in/jesper-gustafsson-61618312a"><FaLinkedin/> LinkedIn</Link>
+                        <Link href="https://github.com/JesperGustafsson"><FaGithub/> GitHub</Link>
+                        <Link href="#"><FaCodepen/> CodePen</Link>
+                        <Link href="#"><FaEnvelope/> E-mail</Link>
                     </Links>
                     <JobTitle>
                         {/* /Front-End Developer/ */}
