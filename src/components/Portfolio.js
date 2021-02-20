@@ -7,6 +7,12 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (max-width: 1090px) {
+        margin-top: 4.5em; 
+    }
+    @media (max-width: 760px) {
+        margin-top: 3em;     }
     
 `;
 
@@ -29,11 +35,14 @@ const SectionTitle = styled.div`
 
 
 const SectionContent = styled.div`
+
     margin-top: 1em;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, 21em);
-    justify-content: space-between;
+
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    justify-items: center;
+    align-items: center;
 `;
 
 const Project = styled.a`
@@ -41,17 +50,18 @@ const Project = styled.a`
     background-color: #FFFF00;
     height: 20em;
     width: 20em;
-    margin: 0.5em;
     overflow: hidden;
     position: relative;
-
+    margin-top: 1em;
+    padding: 0;
     @media (max-width: 1090px) {
         height: 20em;
         width: 20em;
     }
     @media (max-width: 760px) {
         height: 20em;
-        width: 20em;    }
+        width: 20em;    
+    }
 
     :hover {
         
@@ -73,6 +83,7 @@ const ProjectImage = styled.img`
 `;
 
 const ProjectTitle = styled.div`
+    
     height: 100%;
     color: white;
     width: 100%;

@@ -30,6 +30,8 @@ const SectionTitle = styled.div`
 
     @media (max-width: 1090px) {
      font-size: 30px;   
+     border-width: 1px;
+
     }
     @media (max-width: 760px) {
      font-size: 24px;   
@@ -47,9 +49,12 @@ const SectionContent = styled.div`
     line-height: 1.75em;
     @media (max-width: 1090px) {
      font-size: 16px;   
+     padding-bottom: 1em;
+     border-bottom: solid 1px;
     }
     @media (max-width: 760px) {
      font-size: 12px;   
+     
     }
 `;
 

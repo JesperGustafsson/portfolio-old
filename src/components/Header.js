@@ -15,6 +15,8 @@ const Container = styled.div`
 const Photo = styled.img`
     border-style: solid;
     height: 15em;
+
+    
     @media (max-width: 1090px) {
         height: 12em;
     }
