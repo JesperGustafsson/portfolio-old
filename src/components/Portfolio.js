@@ -122,7 +122,7 @@ const Portfolio = () => {
                    <ProjectTitle>This Portfolio!</ProjectTitle>
                     <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
                 </Project>
-                <Project href ="https://jespergustafsson.github.io/react-dota-api-test/"> {/*currency-exchanger*/}
+                <Project href ="https://jespergustafsson.github.io/currency-exchanger/"> {/*currency-exchanger*/}
                    <ProjectTitle>CURRENCY EXCHANGER</ProjectTitle>
                    <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
                 </Project>
