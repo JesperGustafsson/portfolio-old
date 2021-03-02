@@ -3,15 +3,10 @@ import React from 'react'
 const Todo = () => {
     return (
         <div>
-            <h2>To-Do:</h2>
-            <p>Make website more responsive</p>
-            <p>Fix Currency Exchanger</p>
-            <p>Add fake thumbnails</p>
-            <p>Make colors / sizes etc universal</p>
-            <p>Make Chess</p>
-            <p>Make Dungeon Crawler</p>
-            <p>Make IKEA CLONE</p>
-            <p>Make RESTAURANT</p>
+            <br></br>
+            <h1>What I am currently working on and future plans</h1>
+            <p>I am currently focusing on my chess application, to incorporate a Join Game screen and finally implement castling and an passant. </p>
+            <p>Afterwards I think I want to go through my currently uploaded projects and then rework this portfolio site, giving more information regarding each project. </p>
         </div>
     )
 }

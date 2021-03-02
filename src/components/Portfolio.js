@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import project_thumb_portfolio from './project_thumb_portfolio.png'
+import project_thumb_currency from './project_thumb_currency.png'
+import project_thumb_chat from './project_thumb_chat.png'
+import project_thumb_chess from './project_thumb_chess.png'
+import project_thumb_construction from './project_thumb_construction.png'
 
 const Container = styled.div`
     margin-top: 7em;
@@ -120,27 +124,27 @@ const Portfolio = () => {
             <SectionContent>
                 <Project href ="#">
                    <ProjectTitle>This Portfolio!</ProjectTitle>
-                    <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
+                    <ProjectImage src={project_thumb_portfolio}></ProjectImage>
                 </Project>
                 <Project href ="https://jespergustafsson.github.io/currency-exchanger-v2/"> {/*currency-exchanger*/}
                    <ProjectTitle>CURRENCY EXCHANGER</ProjectTitle>
-                   <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
+                   <ProjectImage src={project_thumb_currency}></ProjectImage>
                 </Project>
                 <Project href ="https://jespergustafsson.github.io/chat-app/">
                    <ProjectTitle>CHAT APP</ProjectTitle>
-                   <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
+                   <ProjectImage src={project_thumb_chat}></ProjectImage>
                 </Project>                
-                <Project href ="https://jespergustafsson.github.io/dungeon-crawler/">
-                   <ProjectTitleDev>DUNGEON CRAWLER</ProjectTitleDev>
-                   <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
+                <Project href ="https://hungry-franklin-438ea6.netlify.app/">
+                   <ProjectTitle>CHESS</ProjectTitle>
+                   <ProjectImage src={project_thumb_chess}></ProjectImage>
                 </Project>  
                 <Project href ="https://jespergustafsson.github.io/restaurant/">
                    <ProjectTitleDev>RESTAURANT</ProjectTitleDev>
-                   <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
+                   <ProjectImage src={project_thumb_construction}></ProjectImage>
                 </Project>  
                 <Project href ="https://jespergustafsson.github.io/ikea-clone/">
                    <ProjectTitleDev>IKEA CLONE</ProjectTitleDev>
-                   <ProjectImage src="https://pyxis.nymag.com/v1/imgs/1a6/fd2/90b8f4c3502e59a232ef01300bc6287c0d-29-grumpy-cat.rsquare-zoom.w190.jpg"></ProjectImage>
+                   <ProjectImage src={project_thumb_construction}></ProjectImage>
                 </Project>  
             </SectionContent>
         </Container>
