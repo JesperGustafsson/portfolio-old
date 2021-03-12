@@ -97,14 +97,14 @@ const Header = () => {
             </Photo>
             <Intro>
                 <Intro2>
-                    I am Jesper, <br/> aspiring web-developer
+                    I am Jesper, <br/> aspiring developer
                 </Intro2>
                 <Media>
                     <Links>
                         <Link href="https://www.linkedin.com/in/jesper-gustafsson-61618312a"><FaLinkedin/> LinkedIn</Link>
                         <Link href="https://github.com/JesperGustafsson"><FaGithub/> GitHub</Link>
-                        <Link href="#"><FaCodepen/> CodePen</Link>
-                        <Link href="#"><FaEnvelope/> E-mail</Link>
+                        {/* <Link href="#"><FaCodepen/> CodePen</Link> */}
+                        <Link href="mailto:jesper95gustafsson@gmail.com"><FaEnvelope/> E-mail</Link>
                     </Links>
                     <JobTitle>
                         {/* /Front-End Developer/ */}

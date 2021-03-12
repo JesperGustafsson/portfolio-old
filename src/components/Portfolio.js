@@ -122,28 +122,28 @@ const Portfolio = () => {
                 Portfolio
             </SectionTitle>
             <SectionContent>
-                <Project href ="#">
-                   <ProjectTitle>This Portfolio!</ProjectTitle>
-                    <ProjectImage src={project_thumb_portfolio}></ProjectImage>
-                </Project>
-                <Project href ="https://jespergustafsson.github.io/currency-exchanger-v2/"> {/*currency-exchanger*/}
-                   <ProjectTitle>CURRENCY EXCHANGER</ProjectTitle>
-                   <ProjectImage src={project_thumb_currency}></ProjectImage>
-                </Project>
-                <Project href ="https://jespergustafsson.github.io/chat-app/">
-                   <ProjectTitle>CHAT APP</ProjectTitle>
-                   <ProjectImage src={project_thumb_chat}></ProjectImage>
-                </Project>                
                 <Project href ="https://hungry-franklin-438ea6.netlify.app/">
                    <ProjectTitle>CHESS</ProjectTitle>
                    <ProjectImage src={project_thumb_chess}></ProjectImage>
                 </Project>  
-                <Project href ="https://jespergustafsson.github.io/restaurant/">
-                   <ProjectTitleDev>RESTAURANT</ProjectTitleDev>
+                <Project href ="https://jespergustafsson.github.io/chat-app/">
+                   <ProjectTitle>CHAT APP</ProjectTitle>
+                   <ProjectImage src={project_thumb_chat}></ProjectImage>
+                </Project>            
+                <Project href ="https://jespergustafsson.github.io/currency-exchanger-v2/"> {/*currency-exchanger*/}
+                   <ProjectTitle>CURRENCY EXCHANGER</ProjectTitle>
+                   <ProjectImage src={project_thumb_currency}></ProjectImage>
+                </Project>
+                <Project href ="#">
+                   <ProjectTitle>This Portfolio!</ProjectTitle>
+                    <ProjectImage src={project_thumb_portfolio}></ProjectImage>
+                </Project>
+                <Project href ="#">
+                   <ProjectTitleDev>RESTAURANT?</ProjectTitleDev>
                    <ProjectImage src={project_thumb_construction}></ProjectImage>
                 </Project>  
-                <Project href ="https://jespergustafsson.github.io/ikea-clone/">
-                   <ProjectTitleDev>IKEA CLONE</ProjectTitleDev>
+                <Project href ="#">
+                   <ProjectTitleDev>E-SHOP?</ProjectTitleDev>
                    <ProjectImage src={project_thumb_construction}></ProjectImage>
                 </Project>  
             </SectionContent>

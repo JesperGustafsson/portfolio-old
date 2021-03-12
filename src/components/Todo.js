@@ -4,10 +4,10 @@ const Todo = () => {
     return (
         <div>
             <br></br>
-            <h1>What I am currently working on and future plans</h1>
-            <p>I am currently focusing on my chess application. The game itself (should) works bug-free but I would like to make the code cleaner before adding additional functionality, such as a chat or login system</p>
-            <p>I think I want to go through my currently uploaded projects and then rework this portfolio site, giving more information regarding each project. </p>
-            <p>I want to create an online-version of the board game King of Tokyo</p>
+            <h1>What I am currently working on and future plans </h1><h3>(last update: 2021-03-12)</h3>
+            <p>I have just finished the actual chess game part of my chess website. It (should) work bug-free. In the future I would like to make an authentication system as well as incorporate a chat, but for now I think I want to
+                focus on making my portfolio site better, giving a more detailed description for each project.</p>
+            <p>Other future plans include making a website for a mock-restaurant and projects using Java/C#/Python.</p>
         </div>
     )
 }

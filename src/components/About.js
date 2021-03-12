@@ -70,10 +70,8 @@ const About = () => {
                 Afterwards, I decided to study Japanese, also at Lund Univeristy (2017 - 2020), 
                 partly because I wanted to come into contact with a wide variety of people and their ideas/perspectives,
                 rather than spend most of my young adulthood with mostly coders. After coming back to Sweden from
-                my exchange year, I started dabbling in front-end development and started taking it more
-                seriously in February of 2021, when I decided to consistently spend a few hours a day making 
-                personal projects to build a portfolio while searching for a job.
-                My ideal company would either work towards building a sustainable future or help people.
+                my exchange year, I started dabbling in front-end development as it was something my education lacked.
+                My ideal company would either work towards building a sustainable future or help people in need.
             </SectionContent>
         </Container>
     )
