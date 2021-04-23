@@ -129,7 +129,11 @@ const Portfolio = () => {
                 <Project href ="https://jespergustafsson.github.io/chat-app/">
                    <ProjectTitle>CHAT APP</ProjectTitle>
                    <ProjectImage src={project_thumb_chat}></ProjectImage>
-                </Project>            
+                </Project>         
+                <Project href ="https://powerful-meadow-92316.herokuapp.com/">
+                   <ProjectTitle>TripToken</ProjectTitle>
+                   <ProjectImage src={project_thumb_construction}></ProjectImage>
+                </Project>     
                 <Project href ="https://jespergustafsson.github.io/currency-exchanger-v2/"> {/*currency-exchanger*/}
                    <ProjectTitle>CURRENCY EXCHANGER</ProjectTitle>
                    <ProjectImage src={project_thumb_currency}></ProjectImage>
@@ -138,10 +142,6 @@ const Portfolio = () => {
                    <ProjectTitle>This Portfolio!</ProjectTitle>
                     <ProjectImage src={project_thumb_portfolio}></ProjectImage>
                 </Project>
-                <Project href ="#">
-                   <ProjectTitleDev>RESTAURANT?</ProjectTitleDev>
-                   <ProjectImage src={project_thumb_construction}></ProjectImage>
-                </Project>  
                 <Project href ="#">
                    <ProjectTitleDev>E-SHOP?</ProjectTitleDev>
                    <ProjectImage src={project_thumb_construction}></ProjectImage>
